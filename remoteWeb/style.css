@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin:0;
+    background-color: #213140;
+}
+
+.pausePlay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pausePlay svg{
+    width:45%;
+
+}
+
+#bleApp{
+    background-color: #4A738C;
+    max-width:500px;
+    width:95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top:20px;
+    color:white
+}
+
+input, textarea, select{
+    width:100%;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    border-radius: 3px;
+    font-size: 11pt;
+}
+
+button{
+    font-size: 11pt;
+    padding: 10px 15px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 20%);
+    background-color: #309BDE ;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+button:hover, .btn:hover{
+    background-color: #226F9E;
+    box-shadow: 0 10px 15px 0 rgb(0 0 0 / 20%);
+}
+
+svg{
+    fill:white;
+    height: 100%;
+    width: 100%;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.remoteBtn{
+    width:30%;
+    height: 15vh;
+}
+
+.remoteBtn h2{
+    margin:0;
+    font-size: 24pt;
+}
+.gray{
+    background-color: gray;
+}
+
+.gray:hover{
+    background-color: rgb(92, 92, 92);
+}
+
+
+@media screen and (min-width: 500px) {
+   
+  }
